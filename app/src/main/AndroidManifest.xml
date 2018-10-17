@@ -17,16 +17,18 @@
         <activity android:name=".Main4Activity5" />
         <activity android:name=".IntentOnePageToAnother" />
         <activity android:name=".Welcome" />
-        <activity android:name=".ActivityLifeCycle"></activity>
-        <activity android:name=".OptionMenuIntegrate">
-
-        </activity>
-        <activity android:name=".BackPress">
+        <activity android:name=".ActivityLifeCycle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".OptionMenuIntegrate">
+
+        </activity>
+        <activity android:name=".BackPress">
+
         </activity>
     </application>
 
