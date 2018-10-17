@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Logout"
+        android:id="@+id/logout"
+        app:showAsAction="always"/>
+       // android:icon="@drawable/van"
+
+        //android:visible="false"
+
+    <item
+        android:title="About"
+        android:id="@+id/about"/>
+
+    <item
+        android:title="Yellow"
+        android:id="@+id/yellow"/>
+    <item
+        android:title="Red"
+        android:id="@+id/red" />
+
+    <item
+        android:title="Black"
+        android:id="@+id/black"/>
+    <item
+    android:title="Rose"
+    android:id="@+id/rose"
+        android:icon="@drawable/rose"
+       />
+    <item
+    android:title="Car"
+    android:id="@+id/car"
+        android:icon="@drawable/car"
+        />
+    <item
+     android:title="Dolly"
+     android:id="@+id/dolly"
+    android:icon="@drawable/dolly"
+        />
+
+    </menu>
+
+
+
