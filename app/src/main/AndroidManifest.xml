@@ -17,18 +17,24 @@
         <activity android:name=".Main4Activity5" />
         <activity android:name=".IntentOnePageToAnother" />
         <activity android:name=".Welcome" />
-        <activity android:name=".ActivityLifeCycle">
+        <activity android:name=".ActivityLifeCycle" />
+        <activity android:name=".OptionMenuIntegrate" />
+        <activity android:name=".BackPress" />
+        <activity android:name=".AlertDailogTest" />
+        <activity android:name=".TimePickerTest" />
+        <activity android:name=".SeekBarTest" />
+        <activity android:name=".CircularProgressBarDetermineTest" />
+        <activity android:name=".TextSpinner" />
+        <activity android:name=".DatePickerTest"></activity>
+        <activity android:name=".ToggleButtonTest">
+
+        </activity>
+        <activity android:name=".ListViewTest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".OptionMenuIntegrate">
-
-        </activity>
-        <activity android:name=".BackPress">
-
         </activity>
     </application>
 
