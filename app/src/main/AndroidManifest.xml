@@ -25,11 +25,12 @@
         <activity android:name=".SeekBarTest" />
         <activity android:name=".CircularProgressBarDetermineTest" />
         <activity android:name=".TextSpinner" />
-        <activity android:name=".DatePickerTest"></activity>
+        <activity android:name=".DatePickerTest" />
         <activity android:name=".ToggleButtonTest">
 
         </activity>
-        <activity android:name=".ListViewTest">
+        <activity android:name=".ListViewTest"></activity>
+        <activity android:name=".CustomListView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

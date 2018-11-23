@@ -9,13 +9,13 @@ import android.widget.ToggleButton;
 
 public class ToggleButtonTest extends AppCompatActivity {
     TextView tv;
-
+    ToggleButton toggle;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_toggle_button_test);
-        ToggleButton toggle=(ToggleButton)findViewById(R.id.toggle);
-        tv=(TextView)findViewById(R.id.textView19);
+        toggle= findViewById(R.id.toggle);
+        tv= findViewById(R.id.textView20);
 
         toggle.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -30,5 +30,16 @@ public class ToggleButtonTest extends AppCompatActivity {
                     }
                 }
         });
+    }
+
+    public void ToggleClick(View view)
+    {
+        if(toggle.isChecked())
+        {
+            tv.setText("On");
+        }
+        else {
+            tv.setText("Off");
+        }
     }
 }
