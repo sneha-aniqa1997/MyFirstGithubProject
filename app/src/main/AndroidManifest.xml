@@ -26,16 +26,18 @@
         <activity android:name=".CircularProgressBarDetermineTest" />
         <activity android:name=".TextSpinner" />
         <activity android:name=".DatePickerTest" />
-        <activity android:name=".ToggleButtonTest">
-
+        <activity android:name=".ToggleButtonTest" />
+        <activity android:name=".ListViewTest" />
+        <activity android:name=".CustomListView"></activity>
+        <activity android:name=".AnimationTest">
         </activity>
-        <activity android:name=".ListViewTest"></activity>
-        <activity android:name=".CustomListView">
+        <activity android:name=".NotificationTest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 
