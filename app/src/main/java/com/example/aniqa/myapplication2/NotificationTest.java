@@ -1,7 +1,9 @@
 package com.example.aniqa.myapplication2;
 
 import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.media.RingtoneManager;
@@ -106,5 +108,24 @@ public class NotificationTest extends AppCompatActivity {
     }
 
     private void notificationActionN() {
+
+        int nId=4;
+        NotificationCompat.Builder builder=new NotificationCompat.Builder(this)
+                .setSmallIcon(R.drawable.flower)
+                .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.buddha))
+                .setContentTitle("Android Course")
+                .setStyle(new NotificationCompat.BigTextStyle().bigText("Click to visit google"))
+                .setAutoCancel(true)
+                .setDefaults(NotificationCompat.DEFAULT_ALL);
+
+        Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://wwww.google.com"));
+        PendingIntent pendingIntent=PendingIntent.getActivity(this, 0,intent,0);
+        builder.addAction(R.drawable.car, "VIEW", pendingIntent);
+
+        Uri path = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+        builder.setSound(path);
+        NotificationManager notificationManager=(NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        notificationManager.notify(nId,builder.build());
+
     }
 }

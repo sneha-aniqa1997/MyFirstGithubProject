@@ -28,16 +28,18 @@
         <activity android:name=".DatePickerTest" />
         <activity android:name=".ToggleButtonTest" />
         <activity android:name=".ListViewTest" />
-        <activity android:name=".CustomListView"></activity>
-        <activity android:name=".AnimationTest">
+        <activity android:name=".CustomListView" />
+        <activity android:name=".AnimationTest"></activity>
+        <activity android:name=".NotificationTest" />
+        <activity android:name=".TextToSpeechTest">
+
         </activity>
-        <activity android:name=".NotificationTest">
+        <activity android:name=".SpeechToText">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 
