@@ -32,14 +32,14 @@
         <activity android:name=".AnimationTest"></activity>
         <activity android:name=".NotificationTest" />
         <activity android:name=".TextToSpeechTest">
-
-        </activity>
-        <activity android:name=".SpeechToText">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        </activity>
+        <activity android:name=".SpeechToTextTest">
         </activity>
     </application>
 

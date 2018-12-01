@@ -14,7 +14,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Locale;
 
-public class SpeechToText extends AppCompatActivity {
+public class SpeechToTextTest extends AppCompatActivity {
 
     TextView text;
     Button mic;

@@ -18,7 +18,7 @@ public class TextToSpeechTest extends AppCompatActivity implements TextToSpeech.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_speech_to_text);
+        setContentView(R.layout.activity_speech_to_text_test);
         initialization();
         button.setOnClickListener(new View.OnClickListener() {
             @Override
