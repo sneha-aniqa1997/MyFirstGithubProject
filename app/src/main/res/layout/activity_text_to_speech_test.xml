@@ -5,23 +5,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TextToSpeechTest">
-
-    <TextView
+    tools:context=".SpeechToTextTest">
+    <EditText
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/text"/>
+        android:layout_height="100dp"
+        android:id="@+id/input"/>
 
     <Button
-        android:id="@+id/mic"
+        android:id="@+id/click"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="160dp"
-        android:text="micro" />
-
-
+        android:text="Click" />
 
 
 </RelativeLayout>

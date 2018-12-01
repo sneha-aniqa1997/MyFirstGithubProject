@@ -2,9 +2,7 @@ package com.example.aniqa.myapplication2;
 
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
-import android.speech.RecognitionService;
 import android.speech.RecognizerIntent;
-import android.speech.tts.TextToSpeech;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -22,7 +20,7 @@ public class SpeechToTextTest extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_text_to_speech_test);
+        setContentView(R.layout.activity_speech_to_text_test);
         initialization();
 
         mic.setOnClickListener(new View.OnClickListener() {
